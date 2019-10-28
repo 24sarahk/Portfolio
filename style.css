@@ -1,0 +1,101 @@
+/* Color Palette
+#122535 Dark Gunmetal (navy)
+#606C38 Deep Spring Bud (green)
+#BCB8B1 Black Shadows (grey)
+#F4F3EE Isabelline (white)
+#E5541b Flame (orange)
+*/
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  header {
+    background-color: #BCB8B1;
+    margin-top: -30px;
+}
+  main {
+    margin: 0;
+    padding: 5%;
+  }
+
+ 
+  h1 {
+      text-align: center;
+      font-size: 3em;
+      letter-spacing: 1em;
+     
+  }
+
+  h2 {
+      text-align: center;
+      letter-spacing: 1em;
+      text-transform: uppercase;  
+      padding-bottom: 2%;
+      margin-top: 0;
+      background-color: #606C38;
+}
+h3 {
+    text-align: left;
+    width: 20%;
+    margin-top: 10%;
+}
+
+ 
+  a:hover {
+    text-decoration: none;
+  }
+nav {
+    text-align: center;
+    background: #122535;
+    top: 0;
+    width: 100%;
+  }
+  nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #E5541b;
+  }
+  .column1 {
+      max-width: 32%;
+      float: left;
+      margin: 2% 0;
+
+  }
+  .column2 {
+      max-width: 32%;
+      float:left;
+      margin: 2% 2%;
+  }
+  .column3 {
+      max-width: 32%;
+      float: left;
+      margin: 2% 0;
+      padding-bottom: 10%;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #606C38;
+    margin: 30% 0;
+    padding-top: 1%
+  }
+  a {
+    color: #BCB8B1;
+  }
+  .copyright {
+      color: #E5541b;
+      padding: 1%;
+  }
+  .contact-info a {
+    padding: 10px;
+    display: inline-block;
+  }
+  
